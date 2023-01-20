@@ -1,0 +1,44 @@
+*{
+  font-family: 'Roboto Mono', monospace;
+}
+body::before{
+  display: block;
+  content:'';
+  height:50px;
+}
+.imageB{
+ font-size: 100px;
+}
+.card{
+  border-width: 0px;
+  min-height: 320px;
+ 
+}
+.meme{
+  align-items: center;
+
+}
+.bg-dark{
+  background-color: #1E1E1E;
+}
+.bg-darker{
+  background-color: #1E1E1E;
+}
+
+.embed-responsive-item{
+  height: 250px;
+  width: 90%;
+}
+#title {
+  font-size:4rem;
+  text-align: center;
+}
+.col-md1{
+  border: 5px;
+  border-color: bisque;
+}
+@media (min-width:768px) {
+  .email-input{
+    width: 50%;
+  }
+}
