@@ -1,0 +1,18 @@
+{
+  "name": "a1",
+  "version": "1.0.0",
+  "description": "Bootstrap V5 with sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "Yoseph Shibiru",
+  "license": "ISC"
+}
