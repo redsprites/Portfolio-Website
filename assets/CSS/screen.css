@@ -1,6 +1,9 @@
 *{
   font-family: 'Roboto Mono', monospace;
 }
+.first{
+  background-color:#212529 !important;
+}
 body::before{
   display: block;
   content:'';
@@ -12,11 +15,14 @@ body::before{
 .card{
   border-width: 0px;
   min-height: 320px;
- 
+}
+.cardShadow {
+  border-radius: 14px !important;
+  background: #ffffff;
+  box-shadow:  10px 10px 27px #d9d9d9,-10px -10px 27px #ffffff!important;
 }
 .meme{
   align-items: center;
-
 }
 .bg-dark{
   background-color: #1E1E1E;
@@ -24,7 +30,6 @@ body::before{
 .bg-darker{
   background-color: #1E1E1E;
 }
-
 .embed-responsive-item{
   height: 250px;
   width: 90%;
@@ -38,7 +43,35 @@ body::before{
   border-color: bisque;
 }
 @media (min-width:768px) {
-  .email-input{
-    width: 50%;
+  .form-input{
+    width: 80%;
   }
 }
+@media (max-width:600px) {
+  body{
+    background-color: ivory;
+  }
+}
+@media (min-width:600px) {
+  .first {
+    background-color: darkcyan !important;
+  }
+}
+
+@media(min-width:900px){
+  .first{
+      background-color:#212529 !important;
+    }
+
+  }
+@media(min-width:900px){
+  .last{
+        background-color:#212529 !important;
+      }
+  
+    }
+  .last{
+    background-color:rgb(20, 52, 52);
+  }
+ 
+
